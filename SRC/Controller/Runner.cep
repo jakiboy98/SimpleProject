@@ -1,0 +1,15 @@
+
+#include <iostream> //Using input and output streams.
+using namespace std; //Access to the standard library.
+int main()
+{
+	cout << "This is how you type to tghe console in C++" << endl;
+	//This would be like System.out.println("In Java");
+	int temp;
+	
+	cin >> temp;
+	
+	cout << temp;
+	
+	return 0;
+}
